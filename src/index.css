@@ -137,6 +137,10 @@
     color: var(--del);
   }
 
+  .ayah-end[data-outside='true'] {
+    opacity: 0.45;
+  }
+
   .extra-chip {
     display: inline-block;
     margin-inline: 0.2em;
