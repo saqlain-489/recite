@@ -1,5 +1,7 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
+import '@fontsource/amiri-quran/arabic-400.css';
+import '@fontsource-variable/inter/wght.css';
 import { App } from './App';
 import './index.css';
 
