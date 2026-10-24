@@ -118,6 +118,14 @@ describe('mistakes', () => {
     expect(statuses(state).filter((_, i) => !naas[i].optional).every((s) => s === 'correct')).toBe(true);
   });
 
+  it('does not glue a repeated short word onto the next word', () => {
+    const expected = expectedSurah(107, 5, 5);
+    const words = spokenVerse('107:5');
+    const state = recite(expected, [...words.slice(0, 3), words[2], ...words.slice(3)]);
+    expect(state.extras).toMatchObject([{ spoken: words[2], repeat: true }]);
+    expect(statuses(state).every((s) => s === 'correct')).toBe(true);
+  });
+
   it('reads an unrelated word in place of another as a substitution, not a miss plus an extra', () => {
     const at = indexOf(fatiha, '1:5', 2);
     const words = [...said];

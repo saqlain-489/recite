@@ -9,6 +9,7 @@ const FAR_SEARCH_BELOW = 0.8;
 const FAR_MATCH_MIN = 0.85;
 const FAR_HORIZON = 300;
 const MAX_MERGE = 3;
+const MERGE_MIN = 0.9;
 const MERGE_MARGIN = 0.1;
 const PAIR_BONUS = 0.5;
 
@@ -117,7 +118,7 @@ export function ingest(state: MatchState, expected: readonly ExpectedWord[], tok
     for (let n = 2; n <= MAX_MERGE && k + n <= queue.length; n++) {
       const merged = queue.slice(k, k + n).map((t) => t.norm).join('');
       const candidate = findBest(merged, expected, words, cursor, false);
-      if (candidate && candidate.adjusted >= CORRECT_THRESHOLD && candidate.adjusted > (best?.adjusted ?? 0) + MERGE_MARGIN) {
+      if (candidate && candidate.score >= MERGE_MIN && candidate.adjusted > (best?.adjusted ?? 0) + MERGE_MARGIN) {
         best = candidate;
         take = n;
       }

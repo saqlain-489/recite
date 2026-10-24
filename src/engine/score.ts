@@ -10,6 +10,8 @@ export interface Mistake {
   readonly verseKey: string;
   readonly expected?: string;
   readonly spoken?: string;
+  // Normalised letters of what was heard, for letter-level highlighting.
+  readonly heard?: string;
   readonly score?: number;
   readonly repeat?: boolean;
 }
@@ -56,12 +58,12 @@ export function summarize(state: MatchState, expected: readonly ExpectedWord[]):
           counts.correct++;
           if (match.heard && match.score !== 1 && hasLetterSlip(word.form, match.heard)) {
             counts.slips++;
-            mistakes.push({ ...base, kind: 'slip', spoken: match.spoken, score: match.score });
+            mistakes.push({ ...base, kind: 'slip', spoken: match.spoken, heard: match.heard, score: match.score });
           }
           break;
         case 'substituted':
           counts.substituted++;
-          mistakes.push({ ...base, kind: 'substituted', spoken: match.spoken, score: match.score });
+          mistakes.push({ ...base, kind: 'substituted', spoken: match.spoken, heard: match.heard, score: match.score });
           break;
         case 'missed':
           counts.missed++;
