@@ -1,0 +1,2573 @@
+{
+ "source": {
+  "name": "Quran.com API v4",
+  "url": "https://api.quran.com/api/v4",
+  "fetched": "2026-10-24",
+  "note": "Word-level text_uthmani and text_imlaei copied byte-for-byte from the API responses."
+ },
+ "chapters": [
+  {
+   "id": 1,
+   "name_simple": "Al-Fatihah",
+   "name_arabic": "الفاتحة",
+   "translated_name": "The Opener",
+   "verses_count": 7,
+   "bismillah_pre": false,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 2,
+   "name_simple": "Al-Baqarah",
+   "name_arabic": "البقرة",
+   "translated_name": "The Cow",
+   "verses_count": 286,
+   "bismillah_pre": true,
+   "revelation_place": "madinah"
+  },
+  {
+   "id": 3,
+   "name_simple": "Ali 'Imran",
+   "name_arabic": "آل عمران",
+   "translated_name": "Family of Imran",
+   "verses_count": 200,
+   "bismillah_pre": true,
+   "revelation_place": "madinah"
+  },
+  {
+   "id": 4,
+   "name_simple": "An-Nisa",
+   "name_arabic": "النساء",
+   "translated_name": "The Women",
+   "verses_count": 176,
+   "bismillah_pre": true,
+   "revelation_place": "madinah"
+  },
+  {
+   "id": 5,
+   "name_simple": "Al-Ma'idah",
+   "name_arabic": "المائدة",
+   "translated_name": "The Table Spread",
+   "verses_count": 120,
+   "bismillah_pre": true,
+   "revelation_place": "madinah"
+  },
+  {
+   "id": 6,
+   "name_simple": "Al-An'am",
+   "name_arabic": "الأنعام",
+   "translated_name": "The Cattle",
+   "verses_count": 165,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 7,
+   "name_simple": "Al-A'raf",
+   "name_arabic": "الأعراف",
+   "translated_name": "The Heights",
+   "verses_count": 206,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 8,
+   "name_simple": "Al-Anfal",
+   "name_arabic": "الأنفال",
+   "translated_name": "The Spoils of War",
+   "verses_count": 75,
+   "bismillah_pre": true,
+   "revelation_place": "madinah"
+  },
+  {
+   "id": 9,
+   "name_simple": "At-Tawbah",
+   "name_arabic": "التوبة",
+   "translated_name": "The Repentance",
+   "verses_count": 129,
+   "bismillah_pre": false,
+   "revelation_place": "madinah"
+  },
+  {
+   "id": 10,
+   "name_simple": "Yunus",
+   "name_arabic": "يونس",
+   "translated_name": "Jonah",
+   "verses_count": 109,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 11,
+   "name_simple": "Hud",
+   "name_arabic": "هود",
+   "translated_name": "Hud",
+   "verses_count": 123,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 12,
+   "name_simple": "Yusuf",
+   "name_arabic": "يوسف",
+   "translated_name": "Joseph",
+   "verses_count": 111,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 13,
+   "name_simple": "Ar-Ra'd",
+   "name_arabic": "الرعد",
+   "translated_name": "The Thunder",
+   "verses_count": 43,
+   "bismillah_pre": true,
+   "revelation_place": "madinah"
+  },
+  {
+   "id": 14,
+   "name_simple": "Ibrahim",
+   "name_arabic": "ابراهيم",
+   "translated_name": "Abraham",
+   "verses_count": 52,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 15,
+   "name_simple": "Al-Hijr",
+   "name_arabic": "الحجر",
+   "translated_name": "The Rocky Tract",
+   "verses_count": 99,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 16,
+   "name_simple": "An-Nahl",
+   "name_arabic": "النحل",
+   "translated_name": "The Bee",
+   "verses_count": 128,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 17,
+   "name_simple": "Al-Isra",
+   "name_arabic": "الإسراء",
+   "translated_name": "The Night Journey",
+   "verses_count": 111,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 18,
+   "name_simple": "Al-Kahf",
+   "name_arabic": "الكهف",
+   "translated_name": "The Cave",
+   "verses_count": 110,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 19,
+   "name_simple": "Maryam",
+   "name_arabic": "مريم",
+   "translated_name": "Mary",
+   "verses_count": 98,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 20,
+   "name_simple": "Taha",
+   "name_arabic": "طه",
+   "translated_name": "Ta-Ha",
+   "verses_count": 135,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 21,
+   "name_simple": "Al-Anbya",
+   "name_arabic": "الأنبياء",
+   "translated_name": "The Prophets",
+   "verses_count": 112,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 22,
+   "name_simple": "Al-Hajj",
+   "name_arabic": "الحج",
+   "translated_name": "The Pilgrimage",
+   "verses_count": 78,
+   "bismillah_pre": true,
+   "revelation_place": "madinah"
+  },
+  {
+   "id": 23,
+   "name_simple": "Al-Mu'minun",
+   "name_arabic": "المؤمنون",
+   "translated_name": "The Believers",
+   "verses_count": 118,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 24,
+   "name_simple": "An-Nur",
+   "name_arabic": "النور",
+   "translated_name": "The Light",
+   "verses_count": 64,
+   "bismillah_pre": true,
+   "revelation_place": "madinah"
+  },
+  {
+   "id": 25,
+   "name_simple": "Al-Furqan",
+   "name_arabic": "الفرقان",
+   "translated_name": "The Criterion",
+   "verses_count": 77,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 26,
+   "name_simple": "Ash-Shu'ara",
+   "name_arabic": "الشعراء",
+   "translated_name": "The Poets",
+   "verses_count": 227,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 27,
+   "name_simple": "An-Naml",
+   "name_arabic": "النمل",
+   "translated_name": "The Ant",
+   "verses_count": 93,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 28,
+   "name_simple": "Al-Qasas",
+   "name_arabic": "القصص",
+   "translated_name": "The Stories",
+   "verses_count": 88,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 29,
+   "name_simple": "Al-'Ankabut",
+   "name_arabic": "العنكبوت",
+   "translated_name": "The Spider",
+   "verses_count": 69,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 30,
+   "name_simple": "Ar-Rum",
+   "name_arabic": "الروم",
+   "translated_name": "The Romans",
+   "verses_count": 60,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 31,
+   "name_simple": "Luqman",
+   "name_arabic": "لقمان",
+   "translated_name": "Luqman",
+   "verses_count": 34,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 32,
+   "name_simple": "As-Sajdah",
+   "name_arabic": "السجدة",
+   "translated_name": "The Prostration",
+   "verses_count": 30,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 33,
+   "name_simple": "Al-Ahzab",
+   "name_arabic": "الأحزاب",
+   "translated_name": "The Combined Forces",
+   "verses_count": 73,
+   "bismillah_pre": true,
+   "revelation_place": "madinah"
+  },
+  {
+   "id": 34,
+   "name_simple": "Saba",
+   "name_arabic": "سبإ",
+   "translated_name": "Sheba",
+   "verses_count": 54,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 35,
+   "name_simple": "Fatir",
+   "name_arabic": "فاطر",
+   "translated_name": "Originator",
+   "verses_count": 45,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 36,
+   "name_simple": "Ya-Sin",
+   "name_arabic": "يس",
+   "translated_name": "Ya Sin",
+   "verses_count": 83,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 37,
+   "name_simple": "As-Saffat",
+   "name_arabic": "الصافات",
+   "translated_name": "Those who set the Ranks",
+   "verses_count": 182,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 38,
+   "name_simple": "Sad",
+   "name_arabic": "ص",
+   "translated_name": "The Letter \"Saad\"",
+   "verses_count": 88,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 39,
+   "name_simple": "Az-Zumar",
+   "name_arabic": "الزمر",
+   "translated_name": "The Troops",
+   "verses_count": 75,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 40,
+   "name_simple": "Ghafir",
+   "name_arabic": "غافر",
+   "translated_name": "The Forgiver",
+   "verses_count": 85,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 41,
+   "name_simple": "Fussilat",
+   "name_arabic": "فصلت",
+   "translated_name": "Explained in Detail",
+   "verses_count": 54,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 42,
+   "name_simple": "Ash-Shuraa",
+   "name_arabic": "الشورى",
+   "translated_name": "The Consultation",
+   "verses_count": 53,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 43,
+   "name_simple": "Az-Zukhruf",
+   "name_arabic": "الزخرف",
+   "translated_name": "The Ornaments of Gold",
+   "verses_count": 89,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 44,
+   "name_simple": "Ad-Dukhan",
+   "name_arabic": "الدخان",
+   "translated_name": "The Smoke",
+   "verses_count": 59,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 45,
+   "name_simple": "Al-Jathiyah",
+   "name_arabic": "الجاثية",
+   "translated_name": "The Crouching",
+   "verses_count": 37,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 46,
+   "name_simple": "Al-Ahqaf",
+   "name_arabic": "الأحقاف",
+   "translated_name": "The Wind-Curved Sandhills",
+   "verses_count": 35,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 47,
+   "name_simple": "Muhammad",
+   "name_arabic": "محمد",
+   "translated_name": "Muhammad",
+   "verses_count": 38,
+   "bismillah_pre": true,
+   "revelation_place": "madinah"
+  },
+  {
+   "id": 48,
+   "name_simple": "Al-Fath",
+   "name_arabic": "الفتح",
+   "translated_name": "The Victory",
+   "verses_count": 29,
+   "bismillah_pre": true,
+   "revelation_place": "madinah"
+  },
+  {
+   "id": 49,
+   "name_simple": "Al-Hujurat",
+   "name_arabic": "الحجرات",
+   "translated_name": "The Rooms",
+   "verses_count": 18,
+   "bismillah_pre": true,
+   "revelation_place": "madinah"
+  },
+  {
+   "id": 50,
+   "name_simple": "Qaf",
+   "name_arabic": "ق",
+   "translated_name": "The Letter \"Qaf\"",
+   "verses_count": 45,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 51,
+   "name_simple": "Adh-Dhariyat",
+   "name_arabic": "الذاريات",
+   "translated_name": "The Winnowing Winds",
+   "verses_count": 60,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 52,
+   "name_simple": "At-Tur",
+   "name_arabic": "الطور",
+   "translated_name": "The Mount",
+   "verses_count": 49,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 53,
+   "name_simple": "An-Najm",
+   "name_arabic": "النجم",
+   "translated_name": "The Star",
+   "verses_count": 62,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 54,
+   "name_simple": "Al-Qamar",
+   "name_arabic": "القمر",
+   "translated_name": "The Moon",
+   "verses_count": 55,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 55,
+   "name_simple": "Ar-Rahman",
+   "name_arabic": "الرحمن",
+   "translated_name": "The Beneficent",
+   "verses_count": 78,
+   "bismillah_pre": true,
+   "revelation_place": "madinah"
+  },
+  {
+   "id": 56,
+   "name_simple": "Al-Waqi'ah",
+   "name_arabic": "الواقعة",
+   "translated_name": "The Inevitable",
+   "verses_count": 96,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 57,
+   "name_simple": "Al-Hadid",
+   "name_arabic": "الحديد",
+   "translated_name": "The Iron",
+   "verses_count": 29,
+   "bismillah_pre": true,
+   "revelation_place": "madinah"
+  },
+  {
+   "id": 58,
+   "name_simple": "Al-Mujadila",
+   "name_arabic": "المجادلة",
+   "translated_name": "The Pleading Woman",
+   "verses_count": 22,
+   "bismillah_pre": true,
+   "revelation_place": "madinah"
+  },
+  {
+   "id": 59,
+   "name_simple": "Al-Hashr",
+   "name_arabic": "الحشر",
+   "translated_name": "The Exile",
+   "verses_count": 24,
+   "bismillah_pre": true,
+   "revelation_place": "madinah"
+  },
+  {
+   "id": 60,
+   "name_simple": "Al-Mumtahanah",
+   "name_arabic": "الممتحنة",
+   "translated_name": "She that is to be examined",
+   "verses_count": 13,
+   "bismillah_pre": true,
+   "revelation_place": "madinah"
+  },
+  {
+   "id": 61,
+   "name_simple": "As-Saf",
+   "name_arabic": "الصف",
+   "translated_name": "The Ranks",
+   "verses_count": 14,
+   "bismillah_pre": true,
+   "revelation_place": "madinah"
+  },
+  {
+   "id": 62,
+   "name_simple": "Al-Jumu'ah",
+   "name_arabic": "الجمعة",
+   "translated_name": "The Congregation, Friday",
+   "verses_count": 11,
+   "bismillah_pre": true,
+   "revelation_place": "madinah"
+  },
+  {
+   "id": 63,
+   "name_simple": "Al-Munafiqun",
+   "name_arabic": "المنافقون",
+   "translated_name": "The Hypocrites",
+   "verses_count": 11,
+   "bismillah_pre": true,
+   "revelation_place": "madinah"
+  },
+  {
+   "id": 64,
+   "name_simple": "At-Taghabun",
+   "name_arabic": "التغابن",
+   "translated_name": "The Mutual Disillusion",
+   "verses_count": 18,
+   "bismillah_pre": true,
+   "revelation_place": "madinah"
+  },
+  {
+   "id": 65,
+   "name_simple": "At-Talaq",
+   "name_arabic": "الطلاق",
+   "translated_name": "The Divorce",
+   "verses_count": 12,
+   "bismillah_pre": true,
+   "revelation_place": "madinah"
+  },
+  {
+   "id": 66,
+   "name_simple": "At-Tahrim",
+   "name_arabic": "التحريم",
+   "translated_name": "The Prohibition",
+   "verses_count": 12,
+   "bismillah_pre": true,
+   "revelation_place": "madinah"
+  },
+  {
+   "id": 67,
+   "name_simple": "Al-Mulk",
+   "name_arabic": "الملك",
+   "translated_name": "The Sovereignty",
+   "verses_count": 30,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 68,
+   "name_simple": "Al-Qalam",
+   "name_arabic": "القلم",
+   "translated_name": "The Pen",
+   "verses_count": 52,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 69,
+   "name_simple": "Al-Haqqah",
+   "name_arabic": "الحاقة",
+   "translated_name": "The Reality",
+   "verses_count": 52,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 70,
+   "name_simple": "Al-Ma'arij",
+   "name_arabic": "المعارج",
+   "translated_name": "The Ascending Stairways",
+   "verses_count": 44,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 71,
+   "name_simple": "Nuh",
+   "name_arabic": "نوح",
+   "translated_name": "Noah",
+   "verses_count": 28,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 72,
+   "name_simple": "Al-Jinn",
+   "name_arabic": "الجن",
+   "translated_name": "The Jinn",
+   "verses_count": 28,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 73,
+   "name_simple": "Al-Muzzammil",
+   "name_arabic": "المزمل",
+   "translated_name": "The Enshrouded One",
+   "verses_count": 20,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 74,
+   "name_simple": "Al-Muddaththir",
+   "name_arabic": "المدثر",
+   "translated_name": "The Cloaked One",
+   "verses_count": 56,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 75,
+   "name_simple": "Al-Qiyamah",
+   "name_arabic": "القيامة",
+   "translated_name": "The Resurrection",
+   "verses_count": 40,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 76,
+   "name_simple": "Al-Insan",
+   "name_arabic": "الانسان",
+   "translated_name": "The Man",
+   "verses_count": 31,
+   "bismillah_pre": true,
+   "revelation_place": "madinah"
+  },
+  {
+   "id": 77,
+   "name_simple": "Al-Mursalat",
+   "name_arabic": "المرسلات",
+   "translated_name": "The Emissaries",
+   "verses_count": 50,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 78,
+   "name_simple": "An-Naba",
+   "name_arabic": "النبإ",
+   "translated_name": "The Tidings",
+   "verses_count": 40,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 79,
+   "name_simple": "An-Nazi'at",
+   "name_arabic": "النازعات",
+   "translated_name": "Those who drag forth",
+   "verses_count": 46,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 80,
+   "name_simple": "'Abasa",
+   "name_arabic": "عبس",
+   "translated_name": "He Frowned",
+   "verses_count": 42,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 81,
+   "name_simple": "At-Takwir",
+   "name_arabic": "التكوير",
+   "translated_name": "The Overthrowing",
+   "verses_count": 29,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 82,
+   "name_simple": "Al-Infitar",
+   "name_arabic": "الإنفطار",
+   "translated_name": "The Cleaving",
+   "verses_count": 19,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 83,
+   "name_simple": "Al-Mutaffifin",
+   "name_arabic": "المطففين",
+   "translated_name": "The Defrauding",
+   "verses_count": 36,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 84,
+   "name_simple": "Al-Inshiqaq",
+   "name_arabic": "الإنشقاق",
+   "translated_name": "The Sundering",
+   "verses_count": 25,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 85,
+   "name_simple": "Al-Buruj",
+   "name_arabic": "البروج",
+   "translated_name": "The Mansions of the Stars",
+   "verses_count": 22,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 86,
+   "name_simple": "At-Tariq",
+   "name_arabic": "الطارق",
+   "translated_name": "The Nightcommer",
+   "verses_count": 17,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 87,
+   "name_simple": "Al-A'la",
+   "name_arabic": "الأعلى",
+   "translated_name": "The Most High",
+   "verses_count": 19,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 88,
+   "name_simple": "Al-Ghashiyah",
+   "name_arabic": "الغاشية",
+   "translated_name": "The Overwhelming",
+   "verses_count": 26,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 89,
+   "name_simple": "Al-Fajr",
+   "name_arabic": "الفجر",
+   "translated_name": "The Dawn",
+   "verses_count": 30,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 90,
+   "name_simple": "Al-Balad",
+   "name_arabic": "البلد",
+   "translated_name": "The City",
+   "verses_count": 20,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 91,
+   "name_simple": "Ash-Shams",
+   "name_arabic": "الشمس",
+   "translated_name": "The Sun",
+   "verses_count": 15,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 92,
+   "name_simple": "Al-Layl",
+   "name_arabic": "الليل",
+   "translated_name": "The Night",
+   "verses_count": 21,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 93,
+   "name_simple": "Ad-Duhaa",
+   "name_arabic": "الضحى",
+   "translated_name": "The Morning Hours",
+   "verses_count": 11,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 94,
+   "name_simple": "Ash-Sharh",
+   "name_arabic": "الشرح",
+   "translated_name": "The Relief",
+   "verses_count": 8,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 95,
+   "name_simple": "At-Tin",
+   "name_arabic": "التين",
+   "translated_name": "The Fig",
+   "verses_count": 8,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 96,
+   "name_simple": "Al-'Alaq",
+   "name_arabic": "العلق",
+   "translated_name": "The Clot",
+   "verses_count": 19,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 97,
+   "name_simple": "Al-Qadr",
+   "name_arabic": "القدر",
+   "translated_name": "The Power",
+   "verses_count": 5,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 98,
+   "name_simple": "Al-Bayyinah",
+   "name_arabic": "البينة",
+   "translated_name": "The Clear Proof",
+   "verses_count": 8,
+   "bismillah_pre": true,
+   "revelation_place": "madinah"
+  },
+  {
+   "id": 99,
+   "name_simple": "Az-Zalzalah",
+   "name_arabic": "الزلزلة",
+   "translated_name": "The Earthquake",
+   "verses_count": 8,
+   "bismillah_pre": true,
+   "revelation_place": "madinah"
+  },
+  {
+   "id": 100,
+   "name_simple": "Al-'Adiyat",
+   "name_arabic": "العاديات",
+   "translated_name": "The Courser",
+   "verses_count": 11,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 101,
+   "name_simple": "Al-Qari'ah",
+   "name_arabic": "القارعة",
+   "translated_name": "The Calamity",
+   "verses_count": 11,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 102,
+   "name_simple": "At-Takathur",
+   "name_arabic": "التكاثر",
+   "translated_name": "The Rivalry in world increase",
+   "verses_count": 8,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 103,
+   "name_simple": "Al-'Asr",
+   "name_arabic": "العصر",
+   "translated_name": "The Declining Day",
+   "verses_count": 3,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 104,
+   "name_simple": "Al-Humazah",
+   "name_arabic": "الهمزة",
+   "translated_name": "The Traducer",
+   "verses_count": 9,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 105,
+   "name_simple": "Al-Fil",
+   "name_arabic": "الفيل",
+   "translated_name": "The Elephant",
+   "verses_count": 5,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 106,
+   "name_simple": "Quraysh",
+   "name_arabic": "قريش",
+   "translated_name": "Quraysh",
+   "verses_count": 4,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 107,
+   "name_simple": "Al-Ma'un",
+   "name_arabic": "الماعون",
+   "translated_name": "The Small kindnesses",
+   "verses_count": 7,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 108,
+   "name_simple": "Al-Kawthar",
+   "name_arabic": "الكوثر",
+   "translated_name": "The Abundance",
+   "verses_count": 3,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 109,
+   "name_simple": "Al-Kafirun",
+   "name_arabic": "الكافرون",
+   "translated_name": "The Disbelievers",
+   "verses_count": 6,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 110,
+   "name_simple": "An-Nasr",
+   "name_arabic": "النصر",
+   "translated_name": "The Divine Support",
+   "verses_count": 3,
+   "bismillah_pre": true,
+   "revelation_place": "madinah"
+  },
+  {
+   "id": 111,
+   "name_simple": "Al-Masad",
+   "name_arabic": "المسد",
+   "translated_name": "The Palm Fiber",
+   "verses_count": 5,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 112,
+   "name_simple": "Al-Ikhlas",
+   "name_arabic": "الإخلاص",
+   "translated_name": "The Sincerity",
+   "verses_count": 4,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 113,
+   "name_simple": "Al-Falaq",
+   "name_arabic": "الفلق",
+   "translated_name": "The Daybreak",
+   "verses_count": 5,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  },
+  {
+   "id": 114,
+   "name_simple": "An-Nas",
+   "name_arabic": "الناس",
+   "translated_name": "Mankind",
+   "verses_count": 6,
+   "bismillah_pre": true,
+   "revelation_place": "makkah"
+  }
+ ],
+ "surahs": [
+  {
+   "id": 1,
+   "verses": [
+    {
+     "verse_key": "1:1",
+     "verse_number": 1,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "بِسْمِ",
+       "text_imlaei": "بِسْمِ"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "ٱللَّهِ",
+       "text_imlaei": "اللَّهِ"
+      },
+      {
+       "position": 3,
+       "text_uthmani": "ٱلرَّحْمَـٰنِ",
+       "text_imlaei": "الرَّحْمَٰنِ"
+      },
+      {
+       "position": 4,
+       "text_uthmani": "ٱلرَّحِيمِ",
+       "text_imlaei": "الرَّحِيمِ"
+      }
+     ]
+    },
+    {
+     "verse_key": "1:2",
+     "verse_number": 2,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "ٱلْحَمْدُ",
+       "text_imlaei": "الْحَمْدُ"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "لِلَّهِ",
+       "text_imlaei": "لِلَّهِ"
+      },
+      {
+       "position": 3,
+       "text_uthmani": "رَبِّ",
+       "text_imlaei": "رَبِّ"
+      },
+      {
+       "position": 4,
+       "text_uthmani": "ٱلْعَـٰلَمِينَ",
+       "text_imlaei": "الْعَالَمِينَ"
+      }
+     ]
+    },
+    {
+     "verse_key": "1:3",
+     "verse_number": 3,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "ٱلرَّحْمَـٰنِ",
+       "text_imlaei": "الرَّحْمَٰنِ"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "ٱلرَّحِيمِ",
+       "text_imlaei": "الرَّحِيمِ"
+      }
+     ]
+    },
+    {
+     "verse_key": "1:4",
+     "verse_number": 4,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "مَـٰلِكِ",
+       "text_imlaei": "مَالِكِ"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "يَوْمِ",
+       "text_imlaei": "يَوْمِ"
+      },
+      {
+       "position": 3,
+       "text_uthmani": "ٱلدِّينِ",
+       "text_imlaei": "الدِّينِ"
+      }
+     ]
+    },
+    {
+     "verse_key": "1:5",
+     "verse_number": 5,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "إِيَّاكَ",
+       "text_imlaei": "إِيَّاكَ"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "نَعْبُدُ",
+       "text_imlaei": "نَعْبُدُ"
+      },
+      {
+       "position": 3,
+       "text_uthmani": "وَإِيَّاكَ",
+       "text_imlaei": "وَإِيَّاكَ"
+      },
+      {
+       "position": 4,
+       "text_uthmani": "نَسْتَعِينُ",
+       "text_imlaei": "نَسْتَعِينُ"
+      }
+     ]
+    },
+    {
+     "verse_key": "1:6",
+     "verse_number": 6,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "ٱهْدِنَا",
+       "text_imlaei": "اهْدِنَا"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "ٱلصِّرَٰطَ",
+       "text_imlaei": "الصِّرَاطَ"
+      },
+      {
+       "position": 3,
+       "text_uthmani": "ٱلْمُسْتَقِيمَ",
+       "text_imlaei": "الْمُسْتَقِيمَ"
+      }
+     ]
+    },
+    {
+     "verse_key": "1:7",
+     "verse_number": 7,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "صِرَٰطَ",
+       "text_imlaei": "صِرَاطَ"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "ٱلَّذِينَ",
+       "text_imlaei": "الَّذِينَ"
+      },
+      {
+       "position": 3,
+       "text_uthmani": "أَنْعَمْتَ",
+       "text_imlaei": "أَنْعَمْتَ"
+      },
+      {
+       "position": 4,
+       "text_uthmani": "عَلَيْهِمْ",
+       "text_imlaei": "عَلَيْهِمْ"
+      },
+      {
+       "position": 5,
+       "text_uthmani": "غَيْرِ",
+       "text_imlaei": "غَيْرِ"
+      },
+      {
+       "position": 6,
+       "text_uthmani": "ٱلْمَغْضُوبِ",
+       "text_imlaei": "الْمَغْضُوبِ"
+      },
+      {
+       "position": 7,
+       "text_uthmani": "عَلَيْهِمْ",
+       "text_imlaei": "عَلَيْهِمْ"
+      },
+      {
+       "position": 8,
+       "text_uthmani": "وَلَا",
+       "text_imlaei": "وَلَا"
+      },
+      {
+       "position": 9,
+       "text_uthmani": "ٱلضَّآلِّينَ",
+       "text_imlaei": "الضَّالِّينَ"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 105,
+   "verses": [
+    {
+     "verse_key": "105:1",
+     "verse_number": 1,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "أَلَمْ",
+       "text_imlaei": "أَلَمْ"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "تَرَ",
+       "text_imlaei": "تَرَ"
+      },
+      {
+       "position": 3,
+       "text_uthmani": "كَيْفَ",
+       "text_imlaei": "كَيْفَ"
+      },
+      {
+       "position": 4,
+       "text_uthmani": "فَعَلَ",
+       "text_imlaei": "فَعَلَ"
+      },
+      {
+       "position": 5,
+       "text_uthmani": "رَبُّكَ",
+       "text_imlaei": "رَبُّكَ"
+      },
+      {
+       "position": 6,
+       "text_uthmani": "بِأَصْحَـٰبِ",
+       "text_imlaei": "بِأَصْحَابِ"
+      },
+      {
+       "position": 7,
+       "text_uthmani": "ٱلْفِيلِ",
+       "text_imlaei": "الْفِيلِ"
+      }
+     ]
+    },
+    {
+     "verse_key": "105:2",
+     "verse_number": 2,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "أَلَمْ",
+       "text_imlaei": "أَلَمْ"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "يَجْعَلْ",
+       "text_imlaei": "يَجْعَلْ"
+      },
+      {
+       "position": 3,
+       "text_uthmani": "كَيْدَهُمْ",
+       "text_imlaei": "كَيْدَهُمْ"
+      },
+      {
+       "position": 4,
+       "text_uthmani": "فِى",
+       "text_imlaei": "فِي"
+      },
+      {
+       "position": 5,
+       "text_uthmani": "تَضْلِيلٍۢ",
+       "text_imlaei": "تَضْلِيلٍ"
+      }
+     ]
+    },
+    {
+     "verse_key": "105:3",
+     "verse_number": 3,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "وَأَرْسَلَ",
+       "text_imlaei": "وَأَرْسَلَ"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "عَلَيْهِمْ",
+       "text_imlaei": "عَلَيْهِمْ"
+      },
+      {
+       "position": 3,
+       "text_uthmani": "طَيْرًا",
+       "text_imlaei": "طَيْرًا"
+      },
+      {
+       "position": 4,
+       "text_uthmani": "أَبَابِيلَ",
+       "text_imlaei": "أَبَابِيلَ"
+      }
+     ]
+    },
+    {
+     "verse_key": "105:4",
+     "verse_number": 4,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "تَرْمِيهِم",
+       "text_imlaei": "تَرْمِيهِم"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "بِحِجَارَةٍۢ",
+       "text_imlaei": "بِحِجَارَةٍ"
+      },
+      {
+       "position": 3,
+       "text_uthmani": "مِّن",
+       "text_imlaei": "مِّن"
+      },
+      {
+       "position": 4,
+       "text_uthmani": "سِجِّيلٍۢ",
+       "text_imlaei": "سِجِّيلٍ"
+      }
+     ]
+    },
+    {
+     "verse_key": "105:5",
+     "verse_number": 5,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "فَجَعَلَهُمْ",
+       "text_imlaei": "فَجَعَلَهُمْ"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "كَعَصْفٍۢ",
+       "text_imlaei": "كَعَصْفٍ"
+      },
+      {
+       "position": 3,
+       "text_uthmani": "مَّأْكُولٍۭ",
+       "text_imlaei": "مَّأْكُولٍ"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 106,
+   "verses": [
+    {
+     "verse_key": "106:1",
+     "verse_number": 1,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "لِإِيلَـٰفِ",
+       "text_imlaei": "لِإِيلَافِ"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "قُرَيْشٍ",
+       "text_imlaei": "قُرَيْشٍ"
+      }
+     ]
+    },
+    {
+     "verse_key": "106:2",
+     "verse_number": 2,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "إِۦلَـٰفِهِمْ",
+       "text_imlaei": "إِيلَافِهِمْ"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "رِحْلَةَ",
+       "text_imlaei": "رِحْلَةَ"
+      },
+      {
+       "position": 3,
+       "text_uthmani": "ٱلشِّتَآءِ",
+       "text_imlaei": "الشِّتَاءِ"
+      },
+      {
+       "position": 4,
+       "text_uthmani": "وَٱلصَّيْفِ",
+       "text_imlaei": "وَالصَّيْفِ"
+      }
+     ]
+    },
+    {
+     "verse_key": "106:3",
+     "verse_number": 3,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "فَلْيَعْبُدُوا۟",
+       "text_imlaei": "فَلْيَعْبُدُوا"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "رَبَّ",
+       "text_imlaei": "رَبَّ"
+      },
+      {
+       "position": 3,
+       "text_uthmani": "هَـٰذَا",
+       "text_imlaei": "هَٰذَا"
+      },
+      {
+       "position": 4,
+       "text_uthmani": "ٱلْبَيْتِ",
+       "text_imlaei": "الْبَيْتِ"
+      }
+     ]
+    },
+    {
+     "verse_key": "106:4",
+     "verse_number": 4,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "ٱلَّذِىٓ",
+       "text_imlaei": "الَّذِي"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "أَطْعَمَهُم",
+       "text_imlaei": "أَطْعَمَهُم"
+      },
+      {
+       "position": 3,
+       "text_uthmani": "مِّن",
+       "text_imlaei": "مِّن"
+      },
+      {
+       "position": 4,
+       "text_uthmani": "جُوعٍۢ",
+       "text_imlaei": "جُوعٍ"
+      },
+      {
+       "position": 5,
+       "text_uthmani": "وَءَامَنَهُم",
+       "text_imlaei": "وَآمَنَهُم"
+      },
+      {
+       "position": 6,
+       "text_uthmani": "مِّنْ",
+       "text_imlaei": "مِّنْ"
+      },
+      {
+       "position": 7,
+       "text_uthmani": "خَوْفٍۭ",
+       "text_imlaei": "خَوْفٍ"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 107,
+   "verses": [
+    {
+     "verse_key": "107:1",
+     "verse_number": 1,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "أَرَءَيْتَ",
+       "text_imlaei": "أَرَأَيْتَ"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "ٱلَّذِى",
+       "text_imlaei": "الَّذِي"
+      },
+      {
+       "position": 3,
+       "text_uthmani": "يُكَذِّبُ",
+       "text_imlaei": "يُكَذِّبُ"
+      },
+      {
+       "position": 4,
+       "text_uthmani": "بِٱلدِّينِ",
+       "text_imlaei": "بِالدِّينِ"
+      }
+     ]
+    },
+    {
+     "verse_key": "107:2",
+     "verse_number": 2,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "فَذَٰلِكَ",
+       "text_imlaei": "فَذَٰلِكَ"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "ٱلَّذِى",
+       "text_imlaei": "الَّذِي"
+      },
+      {
+       "position": 3,
+       "text_uthmani": "يَدُعُّ",
+       "text_imlaei": "يَدُعُّ"
+      },
+      {
+       "position": 4,
+       "text_uthmani": "ٱلْيَتِيمَ",
+       "text_imlaei": "الْيَتِيمَ"
+      }
+     ]
+    },
+    {
+     "verse_key": "107:3",
+     "verse_number": 3,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "وَلَا",
+       "text_imlaei": "وَلَا"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "يَحُضُّ",
+       "text_imlaei": "يَحُضُّ"
+      },
+      {
+       "position": 3,
+       "text_uthmani": "عَلَىٰ",
+       "text_imlaei": "عَلَىٰ"
+      },
+      {
+       "position": 4,
+       "text_uthmani": "طَعَامِ",
+       "text_imlaei": "طَعَامِ"
+      },
+      {
+       "position": 5,
+       "text_uthmani": "ٱلْمِسْكِينِ",
+       "text_imlaei": "الْمِسْكِينِ"
+      }
+     ]
+    },
+    {
+     "verse_key": "107:4",
+     "verse_number": 4,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "فَوَيْلٌۭ",
+       "text_imlaei": "فَوَيْلٌ"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "لِّلْمُصَلِّينَ",
+       "text_imlaei": "لِّلْمُصَلِّينَ"
+      }
+     ]
+    },
+    {
+     "verse_key": "107:5",
+     "verse_number": 5,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "ٱلَّذِينَ",
+       "text_imlaei": "الَّذِينَ"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "هُمْ",
+       "text_imlaei": "هُمْ"
+      },
+      {
+       "position": 3,
+       "text_uthmani": "عَن",
+       "text_imlaei": "عَن"
+      },
+      {
+       "position": 4,
+       "text_uthmani": "صَلَاتِهِمْ",
+       "text_imlaei": "صَلَاتِهِمْ"
+      },
+      {
+       "position": 5,
+       "text_uthmani": "سَاهُونَ",
+       "text_imlaei": "سَاهُونَ"
+      }
+     ]
+    },
+    {
+     "verse_key": "107:6",
+     "verse_number": 6,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "ٱلَّذِينَ",
+       "text_imlaei": "الَّذِينَ"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "هُمْ",
+       "text_imlaei": "هُمْ"
+      },
+      {
+       "position": 3,
+       "text_uthmani": "يُرَآءُونَ",
+       "text_imlaei": "يُرَاءُونَ"
+      }
+     ]
+    },
+    {
+     "verse_key": "107:7",
+     "verse_number": 7,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "وَيَمْنَعُونَ",
+       "text_imlaei": "وَيَمْنَعُونَ"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "ٱلْمَاعُونَ",
+       "text_imlaei": "الْمَاعُونَ"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 108,
+   "verses": [
+    {
+     "verse_key": "108:1",
+     "verse_number": 1,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "إِنَّآ",
+       "text_imlaei": "إِنَّا"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "أَعْطَيْنَـٰكَ",
+       "text_imlaei": "أَعْطَيْنَاكَ"
+      },
+      {
+       "position": 3,
+       "text_uthmani": "ٱلْكَوْثَرَ",
+       "text_imlaei": "الْكَوْثَرَ"
+      }
+     ]
+    },
+    {
+     "verse_key": "108:2",
+     "verse_number": 2,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "فَصَلِّ",
+       "text_imlaei": "فَصَلِّ"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "لِرَبِّكَ",
+       "text_imlaei": "لِرَبِّكَ"
+      },
+      {
+       "position": 3,
+       "text_uthmani": "وَٱنْحَرْ",
+       "text_imlaei": "وَانْحَرْ"
+      }
+     ]
+    },
+    {
+     "verse_key": "108:3",
+     "verse_number": 3,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "إِنَّ",
+       "text_imlaei": "إِنَّ"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "شَانِئَكَ",
+       "text_imlaei": "شَانِئَكَ"
+      },
+      {
+       "position": 3,
+       "text_uthmani": "هُوَ",
+       "text_imlaei": "هُوَ"
+      },
+      {
+       "position": 4,
+       "text_uthmani": "ٱلْأَبْتَرُ",
+       "text_imlaei": "الْأَبْتَرُ"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 109,
+   "verses": [
+    {
+     "verse_key": "109:1",
+     "verse_number": 1,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "قُلْ",
+       "text_imlaei": "قُلْ"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "يَـٰٓأَيُّهَا",
+       "text_imlaei": "يَا أَيُّهَا"
+      },
+      {
+       "position": 3,
+       "text_uthmani": "ٱلْكَـٰفِرُونَ",
+       "text_imlaei": "الْكَافِرُونَ"
+      }
+     ]
+    },
+    {
+     "verse_key": "109:2",
+     "verse_number": 2,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "لَآ",
+       "text_imlaei": "لَا"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "أَعْبُدُ",
+       "text_imlaei": "أَعْبُدُ"
+      },
+      {
+       "position": 3,
+       "text_uthmani": "مَا",
+       "text_imlaei": "مَا"
+      },
+      {
+       "position": 4,
+       "text_uthmani": "تَعْبُدُونَ",
+       "text_imlaei": "تَعْبُدُونَ"
+      }
+     ]
+    },
+    {
+     "verse_key": "109:3",
+     "verse_number": 3,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "وَلَآ",
+       "text_imlaei": "وَلَا"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "أَنتُمْ",
+       "text_imlaei": "أَنتُمْ"
+      },
+      {
+       "position": 3,
+       "text_uthmani": "عَـٰبِدُونَ",
+       "text_imlaei": "عَابِدُونَ"
+      },
+      {
+       "position": 4,
+       "text_uthmani": "مَآ",
+       "text_imlaei": "مَا"
+      },
+      {
+       "position": 5,
+       "text_uthmani": "أَعْبُدُ",
+       "text_imlaei": "أَعْبُدُ"
+      }
+     ]
+    },
+    {
+     "verse_key": "109:4",
+     "verse_number": 4,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "وَلَآ",
+       "text_imlaei": "وَلَا"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "أَنَا۠",
+       "text_imlaei": "أَنَا"
+      },
+      {
+       "position": 3,
+       "text_uthmani": "عَابِدٌۭ",
+       "text_imlaei": "عَابِدٌ"
+      },
+      {
+       "position": 4,
+       "text_uthmani": "مَّا",
+       "text_imlaei": "مَّا"
+      },
+      {
+       "position": 5,
+       "text_uthmani": "عَبَدتُّمْ",
+       "text_imlaei": "عَبَدتُّمْ"
+      }
+     ]
+    },
+    {
+     "verse_key": "109:5",
+     "verse_number": 5,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "وَلَآ",
+       "text_imlaei": "وَلَا"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "أَنتُمْ",
+       "text_imlaei": "أَنتُمْ"
+      },
+      {
+       "position": 3,
+       "text_uthmani": "عَـٰبِدُونَ",
+       "text_imlaei": "عَابِدُونَ"
+      },
+      {
+       "position": 4,
+       "text_uthmani": "مَآ",
+       "text_imlaei": "مَا"
+      },
+      {
+       "position": 5,
+       "text_uthmani": "أَعْبُدُ",
+       "text_imlaei": "أَعْبُدُ"
+      }
+     ]
+    },
+    {
+     "verse_key": "109:6",
+     "verse_number": 6,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "لَكُمْ",
+       "text_imlaei": "لَكُمْ"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "دِينُكُمْ",
+       "text_imlaei": "دِينُكُمْ"
+      },
+      {
+       "position": 3,
+       "text_uthmani": "وَلِىَ",
+       "text_imlaei": "وَلِيَ"
+      },
+      {
+       "position": 4,
+       "text_uthmani": "دِينِ",
+       "text_imlaei": "دِينِ"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 110,
+   "verses": [
+    {
+     "verse_key": "110:1",
+     "verse_number": 1,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "إِذَا",
+       "text_imlaei": "إِذَا"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "جَآءَ",
+       "text_imlaei": "جَاءَ"
+      },
+      {
+       "position": 3,
+       "text_uthmani": "نَصْرُ",
+       "text_imlaei": "نَصْرُ"
+      },
+      {
+       "position": 4,
+       "text_uthmani": "ٱللَّهِ",
+       "text_imlaei": "اللَّهِ"
+      },
+      {
+       "position": 5,
+       "text_uthmani": "وَٱلْفَتْحُ",
+       "text_imlaei": "وَالْفَتْحُ"
+      }
+     ]
+    },
+    {
+     "verse_key": "110:2",
+     "verse_number": 2,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "وَرَأَيْتَ",
+       "text_imlaei": "وَرَأَيْتَ"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "ٱلنَّاسَ",
+       "text_imlaei": "النَّاسَ"
+      },
+      {
+       "position": 3,
+       "text_uthmani": "يَدْخُلُونَ",
+       "text_imlaei": "يَدْخُلُونَ"
+      },
+      {
+       "position": 4,
+       "text_uthmani": "فِى",
+       "text_imlaei": "فِي"
+      },
+      {
+       "position": 5,
+       "text_uthmani": "دِينِ",
+       "text_imlaei": "دِينِ"
+      },
+      {
+       "position": 6,
+       "text_uthmani": "ٱللَّهِ",
+       "text_imlaei": "اللَّهِ"
+      },
+      {
+       "position": 7,
+       "text_uthmani": "أَفْوَاجًۭا",
+       "text_imlaei": "أَفْوَاجًا"
+      }
+     ]
+    },
+    {
+     "verse_key": "110:3",
+     "verse_number": 3,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "فَسَبِّحْ",
+       "text_imlaei": "فَسَبِّحْ"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "بِحَمْدِ",
+       "text_imlaei": "بِحَمْدِ"
+      },
+      {
+       "position": 3,
+       "text_uthmani": "رَبِّكَ",
+       "text_imlaei": "رَبِّكَ"
+      },
+      {
+       "position": 4,
+       "text_uthmani": "وَٱسْتَغْفِرْهُ ۚ",
+       "text_imlaei": "وَاسْتَغْفِرْهُ ۚ"
+      },
+      {
+       "position": 5,
+       "text_uthmani": "إِنَّهُۥ",
+       "text_imlaei": "إِنَّهُ"
+      },
+      {
+       "position": 6,
+       "text_uthmani": "كَانَ",
+       "text_imlaei": "كَانَ"
+      },
+      {
+       "position": 7,
+       "text_uthmani": "تَوَّابًۢا",
+       "text_imlaei": "تَوَّابًا"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 111,
+   "verses": [
+    {
+     "verse_key": "111:1",
+     "verse_number": 1,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "تَبَّتْ",
+       "text_imlaei": "تَبَّتْ"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "يَدَآ",
+       "text_imlaei": "يَدَا"
+      },
+      {
+       "position": 3,
+       "text_uthmani": "أَبِى",
+       "text_imlaei": "أَبِي"
+      },
+      {
+       "position": 4,
+       "text_uthmani": "لَهَبٍۢ",
+       "text_imlaei": "لَهَبٍ"
+      },
+      {
+       "position": 5,
+       "text_uthmani": "وَتَبَّ",
+       "text_imlaei": "وَتَبَّ"
+      }
+     ]
+    },
+    {
+     "verse_key": "111:2",
+     "verse_number": 2,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "مَآ",
+       "text_imlaei": "مَا"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "أَغْنَىٰ",
+       "text_imlaei": "أَغْنَىٰ"
+      },
+      {
+       "position": 3,
+       "text_uthmani": "عَنْهُ",
+       "text_imlaei": "عَنْهُ"
+      },
+      {
+       "position": 4,
+       "text_uthmani": "مَالُهُۥ",
+       "text_imlaei": "مَالُهُ"
+      },
+      {
+       "position": 5,
+       "text_uthmani": "وَمَا",
+       "text_imlaei": "وَمَا"
+      },
+      {
+       "position": 6,
+       "text_uthmani": "كَسَبَ",
+       "text_imlaei": "كَسَبَ"
+      }
+     ]
+    },
+    {
+     "verse_key": "111:3",
+     "verse_number": 3,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "سَيَصْلَىٰ",
+       "text_imlaei": "سَيَصْلَىٰ"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "نَارًۭا",
+       "text_imlaei": "نَارًا"
+      },
+      {
+       "position": 3,
+       "text_uthmani": "ذَاتَ",
+       "text_imlaei": "ذَاتَ"
+      },
+      {
+       "position": 4,
+       "text_uthmani": "لَهَبٍۢ",
+       "text_imlaei": "لَهَبٍ"
+      }
+     ]
+    },
+    {
+     "verse_key": "111:4",
+     "verse_number": 4,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "وَٱمْرَأَتُهُۥ",
+       "text_imlaei": "وَامْرَأَتُهُ"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "حَمَّالَةَ",
+       "text_imlaei": "حَمَّالَةَ"
+      },
+      {
+       "position": 3,
+       "text_uthmani": "ٱلْحَطَبِ",
+       "text_imlaei": "الْحَطَبِ"
+      }
+     ]
+    },
+    {
+     "verse_key": "111:5",
+     "verse_number": 5,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "فِى",
+       "text_imlaei": "فِي"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "جِيدِهَا",
+       "text_imlaei": "جِيدِهَا"
+      },
+      {
+       "position": 3,
+       "text_uthmani": "حَبْلٌۭ",
+       "text_imlaei": "حَبْلٌ"
+      },
+      {
+       "position": 4,
+       "text_uthmani": "مِّن",
+       "text_imlaei": "مِّن"
+      },
+      {
+       "position": 5,
+       "text_uthmani": "مَّسَدٍۭ",
+       "text_imlaei": "مَّسَدٍ"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 112,
+   "verses": [
+    {
+     "verse_key": "112:1",
+     "verse_number": 1,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "قُلْ",
+       "text_imlaei": "قُلْ"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "هُوَ",
+       "text_imlaei": "هُوَ"
+      },
+      {
+       "position": 3,
+       "text_uthmani": "ٱللَّهُ",
+       "text_imlaei": "اللَّهُ"
+      },
+      {
+       "position": 4,
+       "text_uthmani": "أَحَدٌ",
+       "text_imlaei": "أَحَدٌ"
+      }
+     ]
+    },
+    {
+     "verse_key": "112:2",
+     "verse_number": 2,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "ٱللَّهُ",
+       "text_imlaei": "اللَّهُ"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "ٱلصَّمَدُ",
+       "text_imlaei": "الصَّمَدُ"
+      }
+     ]
+    },
+    {
+     "verse_key": "112:3",
+     "verse_number": 3,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "لَمْ",
+       "text_imlaei": "لَمْ"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "يَلِدْ",
+       "text_imlaei": "يَلِدْ"
+      },
+      {
+       "position": 3,
+       "text_uthmani": "وَلَمْ",
+       "text_imlaei": "وَلَمْ"
+      },
+      {
+       "position": 4,
+       "text_uthmani": "يُولَدْ",
+       "text_imlaei": "يُولَدْ"
+      }
+     ]
+    },
+    {
+     "verse_key": "112:4",
+     "verse_number": 4,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "وَلَمْ",
+       "text_imlaei": "وَلَمْ"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "يَكُن",
+       "text_imlaei": "يَكُن"
+      },
+      {
+       "position": 3,
+       "text_uthmani": "لَّهُۥ",
+       "text_imlaei": "لَّهُ"
+      },
+      {
+       "position": 4,
+       "text_uthmani": "كُفُوًا",
+       "text_imlaei": "كُفُوًا"
+      },
+      {
+       "position": 5,
+       "text_uthmani": "أَحَدٌۢ",
+       "text_imlaei": "أَحَدٌ"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 113,
+   "verses": [
+    {
+     "verse_key": "113:1",
+     "verse_number": 1,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "قُلْ",
+       "text_imlaei": "قُلْ"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "أَعُوذُ",
+       "text_imlaei": "أَعُوذُ"
+      },
+      {
+       "position": 3,
+       "text_uthmani": "بِرَبِّ",
+       "text_imlaei": "بِرَبِّ"
+      },
+      {
+       "position": 4,
+       "text_uthmani": "ٱلْفَلَقِ",
+       "text_imlaei": "الْفَلَقِ"
+      }
+     ]
+    },
+    {
+     "verse_key": "113:2",
+     "verse_number": 2,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "مِن",
+       "text_imlaei": "مِن"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "شَرِّ",
+       "text_imlaei": "شَرِّ"
+      },
+      {
+       "position": 3,
+       "text_uthmani": "مَا",
+       "text_imlaei": "مَا"
+      },
+      {
+       "position": 4,
+       "text_uthmani": "خَلَقَ",
+       "text_imlaei": "خَلَقَ"
+      }
+     ]
+    },
+    {
+     "verse_key": "113:3",
+     "verse_number": 3,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "وَمِن",
+       "text_imlaei": "وَمِن"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "شَرِّ",
+       "text_imlaei": "شَرِّ"
+      },
+      {
+       "position": 3,
+       "text_uthmani": "غَاسِقٍ",
+       "text_imlaei": "غَاسِقٍ"
+      },
+      {
+       "position": 4,
+       "text_uthmani": "إِذَا",
+       "text_imlaei": "إِذَا"
+      },
+      {
+       "position": 5,
+       "text_uthmani": "وَقَبَ",
+       "text_imlaei": "وَقَبَ"
+      }
+     ]
+    },
+    {
+     "verse_key": "113:4",
+     "verse_number": 4,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "وَمِن",
+       "text_imlaei": "وَمِن"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "شَرِّ",
+       "text_imlaei": "شَرِّ"
+      },
+      {
+       "position": 3,
+       "text_uthmani": "ٱلنَّفَّـٰثَـٰتِ",
+       "text_imlaei": "النَّفَّاثَاتِ"
+      },
+      {
+       "position": 4,
+       "text_uthmani": "فِى",
+       "text_imlaei": "فِي"
+      },
+      {
+       "position": 5,
+       "text_uthmani": "ٱلْعُقَدِ",
+       "text_imlaei": "الْعُقَدِ"
+      }
+     ]
+    },
+    {
+     "verse_key": "113:5",
+     "verse_number": 5,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "وَمِن",
+       "text_imlaei": "وَمِن"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "شَرِّ",
+       "text_imlaei": "شَرِّ"
+      },
+      {
+       "position": 3,
+       "text_uthmani": "حَاسِدٍ",
+       "text_imlaei": "حَاسِدٍ"
+      },
+      {
+       "position": 4,
+       "text_uthmani": "إِذَا",
+       "text_imlaei": "إِذَا"
+      },
+      {
+       "position": 5,
+       "text_uthmani": "حَسَدَ",
+       "text_imlaei": "حَسَدَ"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 114,
+   "verses": [
+    {
+     "verse_key": "114:1",
+     "verse_number": 1,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "قُلْ",
+       "text_imlaei": "قُلْ"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "أَعُوذُ",
+       "text_imlaei": "أَعُوذُ"
+      },
+      {
+       "position": 3,
+       "text_uthmani": "بِرَبِّ",
+       "text_imlaei": "بِرَبِّ"
+      },
+      {
+       "position": 4,
+       "text_uthmani": "ٱلنَّاسِ",
+       "text_imlaei": "النَّاسِ"
+      }
+     ]
+    },
+    {
+     "verse_key": "114:2",
+     "verse_number": 2,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "مَلِكِ",
+       "text_imlaei": "مَلِكِ"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "ٱلنَّاسِ",
+       "text_imlaei": "النَّاسِ"
+      }
+     ]
+    },
+    {
+     "verse_key": "114:3",
+     "verse_number": 3,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "إِلَـٰهِ",
+       "text_imlaei": "إِلَٰهِ"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "ٱلنَّاسِ",
+       "text_imlaei": "النَّاسِ"
+      }
+     ]
+    },
+    {
+     "verse_key": "114:4",
+     "verse_number": 4,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "مِن",
+       "text_imlaei": "مِن"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "شَرِّ",
+       "text_imlaei": "شَرِّ"
+      },
+      {
+       "position": 3,
+       "text_uthmani": "ٱلْوَسْوَاسِ",
+       "text_imlaei": "الْوَسْوَاسِ"
+      },
+      {
+       "position": 4,
+       "text_uthmani": "ٱلْخَنَّاسِ",
+       "text_imlaei": "الْخَنَّاسِ"
+      }
+     ]
+    },
+    {
+     "verse_key": "114:5",
+     "verse_number": 5,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "ٱلَّذِى",
+       "text_imlaei": "الَّذِي"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "يُوَسْوِسُ",
+       "text_imlaei": "يُوَسْوِسُ"
+      },
+      {
+       "position": 3,
+       "text_uthmani": "فِى",
+       "text_imlaei": "فِي"
+      },
+      {
+       "position": 4,
+       "text_uthmani": "صُدُورِ",
+       "text_imlaei": "صُدُورِ"
+      },
+      {
+       "position": 5,
+       "text_uthmani": "ٱلنَّاسِ",
+       "text_imlaei": "النَّاسِ"
+      }
+     ]
+    },
+    {
+     "verse_key": "114:6",
+     "verse_number": 6,
+     "words": [
+      {
+       "position": 1,
+       "text_uthmani": "مِنَ",
+       "text_imlaei": "مِنَ"
+      },
+      {
+       "position": 2,
+       "text_uthmani": "ٱلْجِنَّةِ",
+       "text_imlaei": "الْجِنَّةِ"
+      },
+      {
+       "position": 3,
+       "text_uthmani": "وَٱلنَّاسِ",
+       "text_imlaei": "وَالنَّاسِ"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

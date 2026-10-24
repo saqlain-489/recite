@@ -1,0 +1,212 @@
+{
+ "source": {
+  "name": "Quran.com API v4",
+  "url": "https://api.quran.com/api/v4",
+  "fetched": "2026-10-24",
+  "note": "Word-level text_uthmani and text_imlaei copied byte-for-byte from the API responses."
+ },
+ "verses": [
+  {
+   "verse_key": "2:1",
+   "verse_number": 1,
+   "words": [
+    {
+     "position": 1,
+     "text_uthmani": "الٓمٓ",
+     "text_imlaei": "الم"
+    }
+   ]
+  },
+  {
+   "verse_key": "2:2",
+   "verse_number": 2,
+   "words": [
+    {
+     "position": 1,
+     "text_uthmani": "ذَٰلِكَ",
+     "text_imlaei": "ذَٰلِكَ"
+    },
+    {
+     "position": 2,
+     "text_uthmani": "ٱلْكِتَـٰبُ",
+     "text_imlaei": "الْكِتَابُ"
+    },
+    {
+     "position": 3,
+     "text_uthmani": "لَا",
+     "text_imlaei": "لَا"
+    },
+    {
+     "position": 4,
+     "text_uthmani": "رَيْبَ ۛ",
+     "text_imlaei": "رَيْبَ ۛ"
+    },
+    {
+     "position": 5,
+     "text_uthmani": "فِيهِ ۛ",
+     "text_imlaei": "فِيهِ ۛ"
+    },
+    {
+     "position": 6,
+     "text_uthmani": "هُدًۭى",
+     "text_imlaei": "هُدًى"
+    },
+    {
+     "position": 7,
+     "text_uthmani": "لِّلْمُتَّقِينَ",
+     "text_imlaei": "لِّلْمُتَّقِينَ"
+    }
+   ]
+  },
+  {
+   "verse_key": "7:1",
+   "verse_number": 1,
+   "words": [
+    {
+     "position": 1,
+     "text_uthmani": "الٓمٓصٓ",
+     "text_imlaei": "المص"
+    }
+   ]
+  },
+  {
+   "verse_key": "19:1",
+   "verse_number": 1,
+   "words": [
+    {
+     "position": 1,
+     "text_uthmani": "كٓهيعٓصٓ",
+     "text_imlaei": "كهيعص"
+    }
+   ]
+  },
+  {
+   "verse_key": "20:1",
+   "verse_number": 1,
+   "words": [
+    {
+     "position": 1,
+     "text_uthmani": "طه",
+     "text_imlaei": "طه"
+    }
+   ]
+  },
+  {
+   "verse_key": "26:1",
+   "verse_number": 1,
+   "words": [
+    {
+     "position": 1,
+     "text_uthmani": "طسٓمٓ",
+     "text_imlaei": "طسم"
+    }
+   ]
+  },
+  {
+   "verse_key": "36:1",
+   "verse_number": 1,
+   "words": [
+    {
+     "position": 1,
+     "text_uthmani": "يسٓ",
+     "text_imlaei": "يس"
+    }
+   ]
+  },
+  {
+   "verse_key": "38:1",
+   "verse_number": 1,
+   "words": [
+    {
+     "position": 1,
+     "text_uthmani": "صٓ ۚ",
+     "text_imlaei": "ص ۚ"
+    },
+    {
+     "position": 2,
+     "text_uthmani": "وَٱلْقُرْءَانِ",
+     "text_imlaei": "وَالْقُرْآنِ"
+    },
+    {
+     "position": 3,
+     "text_uthmani": "ذِى",
+     "text_imlaei": "ذِي"
+    },
+    {
+     "position": 4,
+     "text_uthmani": "ٱلذِّكْرِ",
+     "text_imlaei": "الذِّكْرِ"
+    }
+   ]
+  },
+  {
+   "verse_key": "42:1",
+   "verse_number": 1,
+   "words": [
+    {
+     "position": 1,
+     "text_uthmani": "حمٓ",
+     "text_imlaei": "حم"
+    }
+   ]
+  },
+  {
+   "verse_key": "42:2",
+   "verse_number": 2,
+   "words": [
+    {
+     "position": 1,
+     "text_uthmani": "عٓسٓقٓ",
+     "text_imlaei": "عسق"
+    }
+   ]
+  },
+  {
+   "verse_key": "50:1",
+   "verse_number": 1,
+   "words": [
+    {
+     "position": 1,
+     "text_uthmani": "قٓ ۚ",
+     "text_imlaei": "ق ۚ"
+    },
+    {
+     "position": 2,
+     "text_uthmani": "وَٱلْقُرْءَانِ",
+     "text_imlaei": "وَالْقُرْآنِ"
+    },
+    {
+     "position": 3,
+     "text_uthmani": "ٱلْمَجِيدِ",
+     "text_imlaei": "الْمَجِيدِ"
+    }
+   ]
+  },
+  {
+   "verse_key": "68:1",
+   "verse_number": 1,
+   "words": [
+    {
+     "position": 1,
+     "text_uthmani": "نٓ ۚ",
+     "text_imlaei": "ن ۚ"
+    },
+    {
+     "position": 2,
+     "text_uthmani": "وَٱلْقَلَمِ",
+     "text_imlaei": "وَالْقَلَمِ"
+    },
+    {
+     "position": 3,
+     "text_uthmani": "وَمَا",
+     "text_imlaei": "وَمَا"
+    },
+    {
+     "position": 4,
+     "text_uthmani": "يَسْطُرُونَ",
+     "text_imlaei": "يَسْطُرُونَ"
+    }
+   ]
+  }
+ ]
+}
