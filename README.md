@@ -4,7 +4,7 @@ A browser Quran recitation coach: recite a surah into the mic and every word is 
 
 ![Recite after a recitation of Al-Fatiha: green words were heard correctly, one word was substituted, one was missed, one was said twice, and the result panel lists each mistake with what was heard](docs/screenshots/result.png)
 
-Live demo: _coming soon_
+**Live demo:** [saqlain-489.github.io/recite](https://saqlain-489.github.io/recite/). Use Chrome or Edge to recite with a microphone; the sample recitation works in any browser.
 
 ## How it works
 
