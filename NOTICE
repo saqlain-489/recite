@@ -1,0 +1,17 @@
+The MIT licence in LICENSE covers the source code of this project only.
+The following content is included or loaded at run time and keeps its own terms.
+
+Quran text
+  src/data/quran.json and src/data/samples.json hold word-level text_uthmani and
+  text_imlaei copied byte for byte from the Quran.com API v4 by Quran Foundation
+  (https://api.quran.com/api/v4). Surahs that are not bundled are fetched from the
+  same API in the browser. The text is subject to the provider's terms and is not
+  covered by the MIT licence.
+
+Fonts
+  Amiri Quran, Copyright 2010-2022 The Amiri Project Authors
+  (https://github.com/aliftype/amiri), SIL Open Font License 1.1,
+  bundled through the @fontsource/amiri-quran package.
+
+  Inter, Copyright 2016 The Inter Project Authors (https://github.com/rsms/inter),
+  SIL Open Font License 1.1, bundled through the @fontsource-variable/inter package.
