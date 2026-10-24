@@ -106,7 +106,7 @@ export function ReciteControls(props: ReciteControlsProps) {
 
       <div className="mt-4 hidden lg:block">
         <p className="text-xs font-semibold tracking-wide text-muted uppercase">Heard</p>
-        <p dir="rtl" lang="ar" className="quran mt-1 min-h-14 rounded-xl bg-sunken px-3 py-2 text-xl leading-relaxed">
+        <p dir="rtl" lang="ar" className="quran mt-1 max-h-36 min-h-14 overflow-y-auto rounded-xl bg-sunken px-3 py-2 text-xl leading-relaxed">
           {heard}
           {interim && <span className="text-muted"> {interim}</span>}
           {!heard && !interim && (
