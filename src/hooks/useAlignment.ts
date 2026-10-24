@@ -1,7 +1,7 @@
 import { useCallback, useMemo, useReducer } from 'react';
 import { createState, finalize, ingest, tokenize, type ExpectedWord, type MatchState } from '../engine';
 
-interface AlignmentState {
+export interface AlignmentState {
   readonly expected: readonly ExpectedWord[];
   // Built only from final results; interim results are matched on top of it into `preview` and thrown away.
   readonly committed: MatchState;
@@ -10,21 +10,21 @@ interface AlignmentState {
   readonly interim: string;
 }
 
-type Action =
+export type AlignmentAction =
   | { readonly type: 'reset'; readonly expected: readonly ExpectedWord[] }
   | { readonly type: 'interim'; readonly text: string }
   | { readonly type: 'final'; readonly text: string }
   | { readonly type: 'finish' };
 
-function fresh(expected: readonly ExpectedWord[]): AlignmentState {
+export function freshAlignment(expected: readonly ExpectedWord[]): AlignmentState {
   const state = createState(expected);
   return { expected, committed: state, preview: state, finals: [], interim: '' };
 }
 
-function reducer(state: AlignmentState, action: Action): AlignmentState {
+export function alignmentReducer(state: AlignmentState, action: AlignmentAction): AlignmentState {
   switch (action.type) {
     case 'reset':
-      return fresh(action.expected);
+      return freshAlignment(action.expected);
     case 'interim':
       if (state.committed.finished) return state;
       return { ...state, interim: action.text, preview: ingest(state.committed, state.expected, tokenize(action.text)) };
@@ -45,10 +45,10 @@ function reducer(state: AlignmentState, action: Action): AlignmentState {
 }
 
 export function useAlignment(expected: readonly ExpectedWord[]) {
-  const [stored, dispatch] = useReducer(reducer, expected, fresh);
+  const [stored, dispatch] = useReducer(alignmentReducer, expected, freshAlignment);
   // A new passage restarts matching; React re-renders straight away with the reset state.
   if (stored.expected !== expected) dispatch({ type: 'reset', expected });
-  const state = stored.expected === expected ? stored : fresh(expected);
+  const state = stored.expected === expected ? stored : freshAlignment(expected);
 
   const reset = useCallback(() => dispatch({ type: 'reset', expected }), [expected]);
   const pushInterim = useCallback((text: string) => dispatch({ type: 'interim', text }), []);
