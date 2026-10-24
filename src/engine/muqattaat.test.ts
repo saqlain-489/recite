@@ -29,47 +29,47 @@ describe('collapseMuqattaat', () => {
   const nextForm = analyzeWord(verse('2:2').words[0].text_uthmani);
 
   it('rewrites letters spelled out by name', () => {
-    expect(collapseMuqattaat(['الف', 'لام', 'ميم', next], 0, 'الم')).toEqual({ replacement: ['الم'], consumed: 3 });
-    expect(collapseMuqattaat(['الف', 'لام', 'ميم', 'صاد'], 0, 'المص')).toEqual({ replacement: ['المص'], consumed: 4 });
-    expect(collapseMuqattaat(['يا', 'سين'], 0, 'يس')).toEqual({ replacement: ['يس'], consumed: 2 });
+    expect(collapseMuqattaat(['الف', 'لام', 'ميم', next], 'الم')).toEqual({ replacement: ['الم'], consumed: 3 });
+    expect(collapseMuqattaat(['الف', 'لام', 'ميم', 'صاد'], 'المص')).toEqual({ replacement: ['المص'], consumed: 4 });
+    expect(collapseMuqattaat(['يا', 'سين'], 'يس')).toEqual({ replacement: ['يس'], consumed: 2 });
   });
 
   it('matches the short forms the original word-boundary patterns never caught', () => {
-    expect(collapseMuqattaat(['الف', 'لم', next], 0, 'الم')).toEqual({ replacement: ['الم'], consumed: 2 });
-    expect(collapseMuqattaat(['اللام', next], 0, 'الم')).toEqual({ replacement: ['الم'], consumed: 1 });
+    expect(collapseMuqattaat(['الف', 'لم', next], 'الم')).toEqual({ replacement: ['الم'], consumed: 2 });
+    expect(collapseMuqattaat(['اللام', next], 'الم')).toEqual({ replacement: ['الم'], consumed: 1 });
   });
 
   it('reads "allam ra" as alif lam ra, not alif lam mim', () => {
-    expect(collapseMuqattaat(['اللام', 'را'], 0, 'الر')).toEqual({ replacement: ['الر'], consumed: 2 });
+    expect(collapseMuqattaat(['اللام', 'را'], 'الر')).toEqual({ replacement: ['الر'], consumed: 2 });
   });
 
   it('accepts letter names written with a final hamza', () => {
-    expect(collapseMuqattaat(['طاء', 'هاء'], 0, 'طه')).toEqual({ replacement: ['طه'], consumed: 2 });
+    expect(collapseMuqattaat(['طاء', 'هاء'], 'طه')).toEqual({ replacement: ['طه'], consumed: 2 });
   });
 
   it('rebuilds longer sequences from letter names when the surah is known', () => {
-    expect(collapseMuqattaat(['كاف', 'ها', 'يا', 'عين', 'صاد'], 0, 'كهيعص')).toEqual({
+    expect(collapseMuqattaat(['كاف', 'ها', 'يا', 'عين', 'صاد'], 'كهيعص')).toEqual({
       replacement: ['كهيعص'],
       consumed: 5,
     });
-    expect(collapseMuqattaat(['عين', 'سين', 'قاف'], 0, 'عسق')).toEqual({ replacement: ['عسق'], consumed: 3 });
-    expect(collapseMuqattaat(['قاف'], 0, 'ق')).toEqual({ replacement: ['ق'], consumed: 1 });
+    expect(collapseMuqattaat(['عين', 'سين', 'قاف'], 'عسق')).toEqual({ replacement: ['عسق'], consumed: 3 });
+    expect(collapseMuqattaat(['قاف'], 'ق')).toEqual({ replacement: ['ق'], consumed: 1 });
   });
 
   it('repairs a garbled first word and splits one glued to the next word', () => {
-    expect(collapseMuqattaat(['المر', next], 0, 'الم', nextForm)).toEqual({ replacement: ['الم'], consumed: 1 });
-    expect(collapseMuqattaat([`الم${next}`], 0, 'الم', nextForm)).toEqual({ replacement: ['الم', next], consumed: 1 });
-    expect(collapseMuqattaat([`الم${next}`], 0, 'الم')).toEqual({ replacement: ['الم'], consumed: 1 });
+    expect(collapseMuqattaat(['المر', next], 'الم', nextForm)).toEqual({ replacement: ['الم'], consumed: 1 });
+    expect(collapseMuqattaat([`الم${next}`], 'الم', nextForm)).toEqual({ replacement: ['الم', next], consumed: 1 });
+    expect(collapseMuqattaat([`الم${next}`], 'الم')).toEqual({ replacement: ['الم'], consumed: 1 });
   });
 
   it('keeps the rest of a word cut by a spelling pattern', () => {
-    expect(collapseMuqattaat([`الف`, 'لام', `ميم${next}`], 0, 'الم')).toEqual({ replacement: ['الم', next], consumed: 3 });
+    expect(collapseMuqattaat([`الف`, 'لام', `ميم${next}`], 'الم')).toEqual({ replacement: ['الم', next], consumed: 3 });
   });
 
   it('leaves correct or unrelated words alone', () => {
-    expect(collapseMuqattaat(['الم', next], 0, 'الم')).toBeNull();
-    expect(collapseMuqattaat([next], 0, 'الم')).toBeNull();
-    expect(collapseMuqattaat([], 0, 'الم')).toBeNull();
+    expect(collapseMuqattaat(['الم', next], 'الم')).toBeNull();
+    expect(collapseMuqattaat([next], 'الم')).toBeNull();
+    expect(collapseMuqattaat([], 'الم')).toBeNull();
   });
 });
 

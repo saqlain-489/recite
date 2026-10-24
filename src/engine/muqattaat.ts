@@ -74,14 +74,9 @@ export interface Collapse {
   readonly consumed: number;
 }
 
-// Rewrites the spoken words at `start` into the letters `expected` when they spell them out or garble them.
-export function collapseMuqattaat(
-  tokens: readonly string[],
-  start: number,
-  expected: string,
-  following?: WordForm,
-): Collapse | null {
-  const words = tokens.slice(start).map(normalizeSpoken);
+// Rewrites the first spoken words into the letters `expected` when they spell them out or garble them.
+export function collapseMuqattaat(tokens: readonly string[], expected: string, following?: WordForm): Collapse | null {
+  const words = tokens.map(normalizeSpoken);
   const first = words[0];
   if (!first || first === expected) return null;
 

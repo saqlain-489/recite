@@ -95,7 +95,6 @@ export function ingest(state: MatchState, expected: readonly ExpectedWord[], tok
     if (letters) {
       const collapse = collapseMuqattaat(
         queue.slice(k).map((t) => t.norm),
-        0,
         letters,
         expected[target + 1]?.form,
       );
@@ -202,8 +201,7 @@ function findBest(
   return best;
 }
 
-// Words skipped between two matches are aligned with the words heard in that gap, so "said X instead of Y"
-// wins over "missed Y" plus "extra X". Pairs are chosen by a small order-preserving alignment.
+// Aligns skipped words with the words heard in the gap, so "said X instead of Y" is one substitution, not a miss and an extra.
 function placeGap(
   words: WordMatch[],
   extras: ExtraWord[],
